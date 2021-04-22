@@ -33,9 +33,3 @@ variable "finding_publishing_frequency" {
   default     = "SIX_HOURS"
   description = "Frequency of findings publishing"
 }
-
-#variable "email" {
-#  type        = string
-#  default     = ""
-#  description = "Email to notify SNS events"
-#}
